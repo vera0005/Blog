@@ -1,0 +1,18 @@
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "vera", email = "2398434365@qq.com"},
+]
+dependencies = [
+    "requests>=2.31.0",
+]
+requires-python = ">=3.11"
+license = {text = "MIT"}
+
+[tool.pdm.scripts]
+start = "flask run --port 8000"
+dev = "flask run  --port 8001"
+debug ="flask run --debug --port 8002"
